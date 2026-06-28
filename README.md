@@ -1,4 +1,4 @@
-# CureBot 🩺
+# CureBot
 
 CureBot is a friendly, AI-powered medical assistant designed to provide short, clear, and safe medical guidance. It helps users understand symptoms, suggests common over-the-counter (OTC) medicines, and provides home remedies. If symptoms are severe, CureBot advises consulting a doctor immediately.
 
@@ -24,6 +24,12 @@ CureBot is a friendly, AI-powered medical assistant designed to provide short, c
 *   Pillow, python-multipart, requests
 
 ## 🚀 Getting Started
+
+### Clone the Repository
+```bash
+git clone https://github.com/akarsh277/CureBot.git
+cd CureBot
+```
 
 ### Prerequisites
 *   Python 3.8+
