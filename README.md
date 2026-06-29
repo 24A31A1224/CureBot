@@ -46,7 +46,7 @@ cd CureBot
    ```
 3. Set up your environment variables by creating a `.env` file in the `backend` directory with your API key:
    ```env
-   API_KEY=your_azure_api_key_here
+   API_KEY=your_api_key_here
    ```
 4. Run the FastAPI server:
    ```bash
