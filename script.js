@@ -2,7 +2,7 @@
 
 // Get DOM elements
 function wakeBackend() {
-  fetch("https://curebot-uuey.onrender.com/")
+  fetch("https://curebot-mhi6.onrender.com/")
     .catch(err => console.log("Backend waking…"));
 }
 wakeBackend();
@@ -84,7 +84,7 @@ function getWSUrl() {
 
   return isLocal
     ? "ws://127.0.0.1:8000/ws"
-    : "wss://curebot-uuey.onrender.com/ws";
+    : "wss://curebot-mhi6.onrender.com/ws";
 }
 
 let ws = null;
@@ -611,7 +611,7 @@ function getAPIUrl() {
   const isLocal = (location.hostname === "127.0.0.1" || location.hostname === "localhost" || location.protocol === "file:");
   return isLocal
     ? "http://127.0.0.1:8000/analyze-image"
-    : "https://curebot-uuey.onrender.com/analyze-image";
+    : "https://curebot-mhi6.onrender.com/analyze-image";
 }
 
 imageInput.addEventListener("change", async () => {
