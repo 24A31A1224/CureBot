@@ -21,6 +21,9 @@ app.add_middleware(
 API_KEY = os.getenv("API_KEY")
 API_URL = "https://models.inference.ai.azure.com/chat/completions"
 
+@app.get("/")
+async def root():
+    return {"message": "CureBot Backend is running!"}
 
 # ------------------------------
 # System Prompt Builder
